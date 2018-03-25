@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 
 import './App.scss';
-
+import AppFooter from './components/container/Footer'
 class App extends Component {
   render() {
     return (
       <div className="App">
-        skjshshsi
+        {this.props.children}
+        <AppFooter/>
       </div>
     );
   }

@@ -1,0 +1,38 @@
+.nav {
+  position: fixed;
+  left: 0;
+  top: .4rem;
+  width: .88rem;
+  height: 100%;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.nav .navList::-webkit-scrollbar {
+  width: 0px;
+}
+
+.nav .navList {
+  width: 1.1rem;
+  height: 100%;
+  background: #f4f4f4;
+  padding: .15rem .15rem 100px 0;
+  overflow-y: scroll;
+  box-sizing: border-box;
+}
+
+.nav .navList li {
+  padding: .20rem 0rem .20rem 0;
+  text-align: center;
+  font-size: .14rem;
+  color: #333;
+  height: .54rem;
+  box-sizing: border-box;
+}
+
+.nav .navList li.active {
+  color: #11b57c;
+  border-left: .03rem solid #11b57c;
+  background: #fff;
+  box-sizing: border-box;
+}

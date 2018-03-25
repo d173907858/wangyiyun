@@ -1,0 +1,33 @@
+.list-content {
+  position: fixed;
+  right: 0;
+  top: .4rem;
+  width: 2.94rem;
+  height: 100%;
+  background: #fff;
+  overflow: hidden;
+}
+
+.list-content .commodityBox {
+  width: 3rem;
+  height: 100%;
+  padding: .14rem .2rem 70px .2rem;
+  overflow-y: scroll;
+  box-sizing: border-box;
+}
+
+.list-content .commodityBox .commodityList {
+  float: left;
+  position: relative;
+  display: inline-block;
+  width: .6rem;
+  height: 1rem;
+  margin: 0 .12rem;
+  font-size: .13rem;
+  color: #808080;
+  text-align: center;
+}
+
+.list-content .commodityBox .commodityList img {
+  width: 100%;
+}

@@ -1,0 +1,146 @@
+.wrap{
+    padding: 0 0 70px 0;
+}
+.input-item {
+    border: 1px solid #d9dfd5;
+    border-width: 1px 0;
+    margin-top: 30px;
+    padding: 0 0 0 20px;
+    background: #fff;
+    box-sizing: border-box;
+    .item-list:last-child {
+        border: 0;
+    }
+    .item-list{
+        position: relative;
+        padding: 15px 0;
+        border-bottom:1px solid #e7e7e7;
+        
+        i{
+            font-size: 24px;
+            vertical-align: middle;
+            color: #008842;
+        }
+        input{
+            display: inline-block;
+            height: 30px;
+            font-size:16px;
+            border: none;
+            padding-left: 30px;
+        }
+        .identifyCode{
+            width:60%;
+            border:0;
+            display: inline-block;
+            margin-left: 24px;
+        }
+        img{
+            vertical-align: middle;
+            display: inline-block;
+        }
+    }
+}
+.login-option{
+    margin: 15px 30px 0 20px;
+    .retrieve_password{
+        float: left;
+        width: 45%;
+        text-align: left;
+        font-size: 15px;
+        color: #008842;
+    }
+}
+.btn-login{
+    margin: 60px 30px 0;
+    height: 40px;
+    text-align: center;
+    button{
+        display: inline-block;
+        width: 45%;
+        height: 40px;
+        border: 0;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+    .btn-green{
+        color: #fff;
+        background:#008842;
+        float: left;
+    }
+    .btn-white{
+        display: inline-block;
+        width: 45%;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 4px;
+        font-size: 16px;
+        border: 1px solid #008842;
+        color: #008842;
+        background: #fff;
+        float: right;
+    }
+    .btn_green {
+        color: #fff;
+        background: #008842;
+        width: 60%;
+    }
+    
+}
+.tc{
+    color: #8d8a8a;
+    text-align: center;
+    margin: 10px 0 10px;
+}
+
+.btn-login::before{
+    display:table;
+    content: "";
+}
+.login-other{
+    margin: .45rem 0 0 0;
+    dl{
+        margin-bottom: .2rem;
+        dt{
+            font-size: 15px;
+            padding-bottom: .2rem;
+            text-align: center;
+            color: #a0a0a0;
+        }
+        dd{
+            padding: 0 1rem;
+
+        }
+    }
+    span{
+        display: block;
+        overflow: hidden;
+        float: left;
+        width: 50%;
+        height: .55rem;
+        text-indent: -9999px;
+    }
+    span.qq{
+        background:url('https://img02.yiguo.com/e/web/150623/00781/173832/login-qq.png') no-repeat center;
+        background-size: auto 100%
+    }
+    span.weibo{
+        background:url('https://img02.yiguo.com/e/web/150623/00781/173832/login-weibo.png') no-repeat center;
+        background-size: auto 100%
+    }
+}
+
+.bottomcopyright {
+    position: absolute;
+    bottom: 15px;
+    left: 32%;
+    text-align: center;
+    padding: 10px;
+}
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    background-size: 100% 100%;
+    width: 1.1rem;
+    height: .35rem;
+    background-image: url('https://img02.yiguo.com/e/web/150924/00982/140710/yiguo_logo.png');
+}

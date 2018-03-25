@@ -1,0 +1,151 @@
+.my{
+    overflow: hidden;
+    .header{
+        position: relative;
+        width:4rem;
+        height: 1.3rem;
+        background:#2dd282;
+        padding: 0 .11rem 0 .18rem;
+        .headerImg{
+            position: relative;
+            display: inline-block;
+            height: .8rem;
+            margin-top:.3rem;
+            padding:0 0 0 .8rem;
+            box-sizing: border-box;
+            img{
+                position: absolute;
+                left: 0;
+                top: 0;
+                width:.7rem;
+                height: .7rem;
+                border: .04rem solid rgba(255,255,255,.5);
+                border-radius:50%;
+            }
+            .name{
+                display: inline-block;
+                color: #fff;
+                font-size:.16rem;
+                width:1.5rem;
+                overflow: hidden;
+                text-overflow:ellipsis;
+                white-space:nowrap;
+                line-height: .6rem;
+                padding: .12rem 0 0 .2rem;
+            }
+        }
+        .setting {
+            position: absolute;
+            top: .13rem;
+            right:.65rem;
+            display: inline-block;
+            font-size: 22px;
+            color: #fff;
+            width:.2rem;
+            height: .23rem;
+        }
+    }
+    .account {
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+        height: .44rem;
+        background: #1eb675;
+        padding: .1rem .1rem .1rem .1rem;
+        .list:last-child {
+            border: none;
+        }
+        .list {
+            width:33.33%;
+            height: 100%;
+            text-align: center;
+            border-right:1px dashed rgba(255,255,255,.5);
+            .num{
+                font-size:.2rem;
+            }
+            .text{
+                font-size: .1rem;
+                padding-top:.9rem;
+            }
+            span{
+                display: block;
+                color: #fff;
+            }
+        }
+    }
+    .listTab{
+        position: relative;
+        width:100%;
+        background:#fff;
+        height: .9rem;
+        margin-bottom:.1rem;
+        .line-bottom{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            li{
+                position: relative;
+                float: left;
+                width: 20%;
+                height: 100%;
+                a{
+                    display: inline-block;
+                    font-size: .13rem;
+                    color: #333;
+                    width: 100%;
+                    text-align: center;
+                    padding-top:.6rem;
+                    i{
+                        position: absolute;
+                        left: 50%;
+                        top:.3rem;
+                        font-size: .21rem;
+                        width:.26rem;
+                        height:.31rem;
+                        color:#bbb;
+                        margin-left: -.13rem;
+                    }
+                }
+
+            }
+        }
+    }
+    .textList{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        background:#fff;
+        width:100%;
+        margin-bottom:.1rem;
+        .list{
+            display: flex;
+            position: relative;
+            justify-content: space-around;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            padding: .1rem 0;
+            width: 25%;
+            height: .8rem;
+            box-sizing: border-box;
+            i{
+                font-size: .22rem;
+                color: #1eb675;
+            }
+        }
+        .line-bottom::after{
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 1px;
+            background: #ddd;
+            -webkit-transform: scaleY(0.5);
+            transform: scaleY(0.5);
+            -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+        }
+    }
+}

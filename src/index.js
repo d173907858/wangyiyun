@@ -2,13 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './stylesheets/index.scss';
 import registerServiceWorker from './registerServiceWorker';
-import {Router,hashHistory} from 'react-router'
+import {Router,browserHistory} from 'react-router'
 import routeConfig from './router'
+import store from './store'
+import {Provider} from 'react-redux'
 
 
 ReactDOM.render( 
-
-<Router routes={routeConfig} history={hashHistory}></Router>,
-    
-    document.getElementById('root'));
+<Provider store={store}>
+<Router routes={routeConfig} history={browserHistory}></Router>
+</Provider>    
+ ,document.getElementById('root'));
 registerServiceWorker();
